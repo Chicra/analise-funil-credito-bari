@@ -1,0 +1,447 @@
+[
+  {
+    "arquivo": "laudo_01.txt",
+    "tipo_imovel": "Apartamento",
+    "endereco": "Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",
+    "areas": [
+      {
+        "rotulo": "área privativa",
+        "valor": "78,40",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total",
+        "valor": "102,10",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2014,
+    "valor_avaliacao": 642000.0,
+    "matricula": "184.772",
+    "onus_status": "NENHUM IDENTIFICADO",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "12/03/2025",
+    "responsavel_tecnico": "Eng. Marina Albuquerque - CREA-SP 5061234567",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_02.txt",
+    "tipo_imovel": "Casa",
+    "endereco": "Av. Central, 900, bloco B, Belo Horizonte - MG",
+    "areas": [
+      {
+        "rotulo": "lote de",
+        "valor": "250",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área construída",
+        "valor": "146,00",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2008,
+    "valor_avaliacao": 680000.0,
+    "matricula": "45.981",
+    "onus_status": "NENHUM IDENTIFICADO",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "18/03/2025",
+    "responsavel_tecnico": "Carlos Henrique Moura, CAU A123456-7",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_03.txt",
+    "tipo_imovel": "Sala comercial",
+    "endereco": "Em 22 de março de 2025 vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR",
+    "areas": [
+      {
+        "rotulo": "área útil",
+        "valor": "54,8",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área comum proporcional",
+        "valor": "18,2",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": null,
+    "valor_avaliacao": 395500.0,
+    "matricula": "77.201",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "alienação fiduciária",
+    "onus_texto": "Consta alienação fiduciária em favor de instituição financeira; recomenda-se atualização da certidão",
+    "data_vistoria": "22/03/2025",
+    "responsavel_tecnico": "Arq. Beatriz Nunes (CAU A987654-3)",
+    "alertas": [
+      "ano_construcao: Ano não declarado explicitamente; documento menciona apenas idade aparente de 11 anos"
+    ]
+  },
+  {
+    "arquivo": "laudo_04.txt",
+    "tipo_imovel": "Terreno",
+    "endereco": "Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",
+    "areas": [
+      {
+        "rotulo": "área do terreno",
+        "valor": "360",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": null,
+    "valor_avaliacao": 218000.0,
+    "matricula": "102.334",
+    "onus_status": "NÃO INFORMADO / NÃO VERIFICÁVEL",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "02/04/2025",
+    "responsavel_tecnico": "Paulo Sérgio Reis, CREA 12345/D-GO",
+    "alertas": [
+      "ano_construcao: Não se aplica (terreno sem edificação)"
+    ]
+  },
+  {
+    "arquivo": "laudo_05.txt",
+    "tipo_imovel": "Imóvel rural",
+    "endereco": "Município de Campinas, UF SP",
+    "areas": [
+      {
+        "rotulo": "área do terreno",
+        "valor": "4,8",
+        "unidade": "ha"
+      },
+      {
+        "rotulo": "benfeitorias construídas",
+        "valor": "310",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 1999,
+    "valor_avaliacao": 1275000.0,
+    "matricula": "32.110",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "hipoteca",
+    "onus_texto": "Ônus: reserva legal registrada; não foi apontada hipoteca",
+    "data_vistoria": "07/04/2025",
+    "responsavel_tecnico": "João A. Farias, CREA-SP 5076543210",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_06.txt",
+    "tipo_imovel": "Apartamento",
+    "endereco": "Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",
+    "areas": [
+      {
+        "rotulo": "área privativa",
+        "valor": "61",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total",
+        "valor": "84",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2018,
+    "valor_avaliacao": 455000.0,
+    "matricula": "9.876",
+    "onus_status": "NENHUM IDENTIFICADO",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "15/04/2025",
+    "responsavel_tecnico": "Fernanda Lins, CREA 18001/PE",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_07.txt",
+    "tipo_imovel": "Casa",
+    "endereco": "Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",
+    "areas": [
+      {
+        "rotulo": "terreno",
+        "valor": "125,00",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área edificada",
+        "valor": "92,50",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2011,
+    "valor_avaliacao": 372000.0,
+    "matricula": "66.504",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "penhora",
+    "onus_texto": "Há penhora averbada, conforme documento consultado em 20/04/2025",
+    "data_vistoria": "20/04/2025",
+    "responsavel_tecnico": "Eng. Rafael Costa, CREA-RS 222333",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_08.txt",
+    "tipo_imovel": "Loja",
+    "endereco": "Rua Sete de Setembro, 410, Salvador/BA",
+    "areas": [
+      {
+        "rotulo": "área construída aproximada",
+        "valor": "118",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": null,
+    "valor_avaliacao": 910000.0,
+    "matricula": null,
+    "onus_status": "NÃO INFORMADO / NÃO VERIFICÁVEL",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "29/04/2025",
+    "responsavel_tecnico": "Luciana Prado - CNAI 12345",
+    "alertas": [
+      "ano_construcao: Campo não encontrado no documento",
+      "matricula: Documento declara explicitamente que a matrícula não foi apresentada"
+    ]
+  },
+  {
+    "arquivo": "laudo_09.txt",
+    "tipo_imovel": "Casa",
+    "endereco": "Casa residencial na Alameda das Flores 88, Florianópolis/SC",
+    "areas": [
+      {
+        "rotulo": "área do lote",
+        "valor": "420,00",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área construída",
+        "valor": "198,00",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2020,
+    "valor_avaliacao": 1080000.0,
+    "matricula": "12.909",
+    "onus_status": "NENHUM IDENTIFICADO",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "03/05/2025",
+    "responsavel_tecnico": "Eng. Thiago Martins, CREA-SC 7654321",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_10.txt",
+    "tipo_imovel": "Apartamento",
+    "endereco": "Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407",
+    "areas": [
+      {
+        "rotulo": "área privativa",
+        "valor": "96,3",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total",
+        "valor": "127,6",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2016,
+    "valor_avaliacao": 735000.0,
+    "matricula": "201.443",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "alienação fiduciária",
+    "onus_texto": "Gravames: alienação fiduciária mencionada na matrícula",
+    "data_vistoria": "09/05/2025",
+    "responsavel_tecnico": "Denise Carvalho, CREA-DF 112233",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_11.txt",
+    "tipo_imovel": "Terreno",
+    "endereco": "Rua Projetada 4, s/n, Santos, SP",
+    "areas": [
+      {
+        "rotulo": "superfície",
+        "valor": "1.020",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": null,
+    "valor_avaliacao": 2450000.0,
+    "matricula": "88.710",
+    "onus_status": "NÃO INFORMADO / NÃO VERIFICÁVEL",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "16/05/2025",
+    "responsavel_tecnico": "Marcos Vieira, Eng. Civil, CREA-SP 5099988776",
+    "alertas": [
+      "ano_construcao: Não se aplica (terreno sem edificação)"
+    ]
+  },
+  {
+    "arquivo": "laudo_12.txt",
+    "tipo_imovel": "Casa",
+    "endereco": "Rua das Bromélias, 500, Lago Sul, Brasília - DF",
+    "areas": [
+      {
+        "rotulo": "área construída de",
+        "valor": "285",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "terreno com",
+        "valor": "600",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2012,
+    "valor_avaliacao": 2180000.0,
+    "matricula": "54.122",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "servidão de passagem",
+    "onus_texto": "Ônus: servidão de passagem registrada",
+    "data_vistoria": "23/05/2025",
+    "responsavel_tecnico": "Arq. Andréa Melo, CAU A445566-1",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_13.txt",
+    "tipo_imovel": "Apartamento",
+    "endereco": "Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",
+    "areas": [
+      {
+        "rotulo": "área útil",
+        "valor": "112,00",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total",
+        "valor": "155,00",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 1987,
+    "valor_avaliacao": 1320000.0,
+    "matricula": "145.230",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "penhora cancelada",
+    "onus_texto": "Ônus: penhora cancelada, conforme averbação; documento não informa data do cancelamento",
+    "data_vistoria": "30/05/2025",
+    "responsavel_tecnico": "Eduardo Sampaio, CNAI 67890",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_14.txt",
+    "tipo_imovel": "Galpão industrial",
+    "endereco": "Rodovia BR-116, km 12, Betim/MG",
+    "areas": [
+      {
+        "rotulo": "área coberta",
+        "valor": "1.450",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "terreno",
+        "valor": "3.000",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": null,
+    "valor_avaliacao": 3900000.0,
+    "matricula": "70.008",
+    "onus_status": "NENHUM IDENTIFICADO",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "05/06/2025",
+    "responsavel_tecnico": "Sérgio Tavares, CREA-MG 998877",
+    "alertas": [
+      "ano_construcao: Ano não declarado explicitamente; documento menciona apenas idade aparente de 18 anos"
+    ]
+  },
+  {
+    "arquivo": "laudo_15.txt",
+    "tipo_imovel": "Casa",
+    "endereco": "Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR",
+    "areas": [
+      {
+        "rotulo": "área do terreno",
+        "valor": "200",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área construída",
+        "valor": "135",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2003,
+    "valor_avaliacao": 590000.0,
+    "matricula": "39.240",
+    "onus_status": "ÔNUS IDENTIFICADO",
+    "onus_tipo": "hipoteca",
+    "onus_texto": "A certidão consultada informa hipoteca ativa",
+    "data_vistoria": "12/06/2025",
+    "responsavel_tecnico": "Patrícia Gomes, Eng. Civil, CREA-PR 123123",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_16.txt",
+    "tipo_imovel": "Unidade comercial",
+    "endereco": "Unidade comercial 14, Rua do Sol, 250, Campinas/SP",
+    "areas": [
+      {
+        "rotulo": "área privativa",
+        "valor": "42,00",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total",
+        "valor": "67,00",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2010,
+    "valor_avaliacao": 288000.0,
+    "matricula": "101.010",
+    "onus_status": "NÃO INFORMADO / NÃO VERIFICÁVEL",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "19/06/2025",
+    "responsavel_tecnico": "Guilherme Rocha, CREA-SP 501010",
+    "alertas": []
+  },
+  {
+    "arquivo": "laudo_17.txt",
+    "tipo_imovel": "Apartamento",
+    "endereco": "Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP",
+    "areas": [
+      {
+        "rotulo": "área privativa",
+        "valor": "70",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total",
+        "valor": "95",
+        "unidade": "m²"
+      },
+      {
+        "rotulo": "área total (tabela interna)",
+        "valor": "92",
+        "unidade": "m²"
+      }
+    ],
+    "ano_construcao": 2015,
+    "valor_avaliacao": 610000.0,
+    "matricula": "176.543",
+    "onus_status": "NENHUM IDENTIFICADO",
+    "onus_tipo": null,
+    "onus_texto": null,
+    "data_vistoria": "25/06/2025",
+    "responsavel_tecnico": "Marina Albuquerque, CREA-SP 5061234567",
+    "alertas": [
+      "CONFLITO em 'área total': valores distintos encontrados ['92', '95']"
+    ]
+  }
+]

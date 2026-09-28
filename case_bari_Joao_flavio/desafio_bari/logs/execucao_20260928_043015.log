@@ -1,0 +1,14 @@
+2026-09-28 04:30:15,653 | INFO | ============================================================
+2026-09-28 04:30:15,653 | INFO | Início da execução do RPA - Relatório Semanal do Funil
+2026-09-28 04:30:15,674 | INFO | Leitura ok: 6400 linhas, 19 colunas de 'propostas_credito.csv'
+2026-09-28 04:30:15,682 | INFO | [tratamento] valor_imovel: removido 'R$' em 3 linha(s)
+2026-09-28 04:30:15,688 | INFO | [tratamento] canal_origem: 4 grafia(s) divergente(s) corrigida(s)
+2026-09-28 04:30:15,689 | INFO | [tratamento] data_entrada: formatos mistos normalizados
+2026-09-28 04:30:15,705 | WARNING | [tratamento] idade_cliente: 1 linha(s) < 18 anos sinalizada(s) e mantida(s) (decisão de negócio a revisar)
+2026-09-28 04:30:15,706 | WARNING | [tratamento] etapa_max_funil: 1 linha(s) fora de 1-6, excluída(s) só das métricas de funil
+2026-09-28 04:30:15,706 | INFO | [tratamento] ltv: coluna citada no dicionário mas ausente no CSV; calculada como valor_solicitado / valor_imovel
+2026-09-28 04:30:15,709 | INFO | [tratamento] tipo_imovel='Terreno': 535 linha(s) removida(s) (regra do desafio)
+2026-09-28 04:30:15,709 | INFO | [tratamento] Base final: 5865 linhas
+2026-09-28 04:30:15,723 | INFO | [métrica] 7 de 7 métricas calculadas
+2026-09-28 04:30:15,728 | INFO | Relatório HTML gerado em 'saidas/relatorio_funil_2026-09-28.html'
+2026-09-28 04:30:15,728 | INFO | Execução concluída com sucesso. Relatório em: saidas/relatorio_funil_2026-09-28.html

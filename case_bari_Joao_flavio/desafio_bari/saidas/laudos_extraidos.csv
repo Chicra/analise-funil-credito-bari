@@ -1,0 +1,18 @@
+﻿arquivo,tipo_imovel,endereco,ano_construcao,valor_avaliacao,matricula,onus_status,onus_tipo,data_vistoria,responsavel_tecnico,alertas
+laudo_01.txt,Apartamento,"Rua das Acácias, 145, ap. 82 - Vila Mariana, São Paulo/SP",2014,642000.0,184.772,NENHUM IDENTIFICADO,,12/03/2025,Eng. Marina Albuquerque - CREA-SP 5061234567,
+laudo_02.txt,Casa,"Av. Central, 900, bloco B, Belo Horizonte - MG",2008,680000.0,45.981,NENHUM IDENTIFICADO,,18/03/2025,"Carlos Henrique Moura, CAU A123456-7",
+laudo_03.txt,Sala comercial,"Em 22 de março de 2025 vistoriamos a sala comercial 503, Edifício Horizonte, Rua do Comércio, 77, Curitiba/PR",,395500.0,77.201,ÔNUS IDENTIFICADO,alienação fiduciária,22/03/2025,Arq. Beatriz Nunes (CAU A987654-3),ano_construcao: Ano não declarado explicitamente; documento menciona apenas idade aparente de 11 anos
+laudo_04.txt,Terreno,"Lote 18, Quadra F, Rua Ipê Amarelo, Goiânia/GO",,218000.0,102.334,NÃO INFORMADO / NÃO VERIFICÁVEL,,02/04/2025,"Paulo Sérgio Reis, CREA 12345/D-GO",ano_construcao: Não se aplica (terreno sem edificação)
+laudo_05.txt,Imóvel rural,"Município de Campinas, UF SP",1999,1275000.0,32.110,ÔNUS IDENTIFICADO,hipoteca,07/04/2025,"João A. Farias, CREA-SP 5076543210",
+laudo_06.txt,Apartamento,"Rua das Palmeiras, 1.210, Recife/PE, CEP 50000-100",2018,455000.0,9.876,NENHUM IDENTIFICADO,,15/04/2025,"Fernanda Lins, CREA 18001/PE",
+laudo_07.txt,Casa,"Casa geminada, Rua Azul, 33, bairro Jardim Europa, Porto Alegre - RS",2011,372000.0,66.504,ÔNUS IDENTIFICADO,penhora,20/04/2025,"Eng. Rafael Costa, CREA-RS 222333",
+laudo_08.txt,Loja,"Rua Sete de Setembro, 410, Salvador/BA",,910000.0,,NÃO INFORMADO / NÃO VERIFICÁVEL,,29/04/2025,Luciana Prado - CNAI 12345,ano_construcao: Campo não encontrado no documento | matricula: Documento declara explicitamente que a matrícula não foi apresentada
+laudo_09.txt,Casa,"Casa residencial na Alameda das Flores 88, Florianópolis/SC",2020,1080000.0,12.909,NENHUM IDENTIFICADO,,03/05/2025,"Eng. Thiago Martins, CREA-SC 7654321",
+laudo_10.txt,Apartamento,"Bem avaliando: apartamento no Condomínio Parque Norte, Brasília/DF, SQN 214, bloco C, apto 407",2016,735000.0,201.443,ÔNUS IDENTIFICADO,alienação fiduciária,09/05/2025,"Denise Carvalho, CREA-DF 112233",
+laudo_11.txt,Terreno,"Rua Projetada 4, s/n, Santos, SP",,2450000.0,88.710,NÃO INFORMADO / NÃO VERIFICÁVEL,,16/05/2025,"Marcos Vieira, Eng. Civil, CREA-SP 5099988776",ano_construcao: Não se aplica (terreno sem edificação)
+laudo_12.txt,Casa,"Rua das Bromélias, 500, Lago Sul, Brasília - DF",2012,2180000.0,54.122,ÔNUS IDENTIFICADO,servidão de passagem,23/05/2025,"Arq. Andréa Melo, CAU A445566-1",
+laudo_13.txt,Apartamento,"Apartamento, Av. Brasil 1770, ap. 1201, Rio de Janeiro/RJ",1987,1320000.0,145.230,ÔNUS IDENTIFICADO,penhora cancelada,30/05/2025,"Eduardo Sampaio, CNAI 67890",
+laudo_14.txt,Galpão industrial,"Rodovia BR-116, km 12, Betim/MG",,3900000.0,70.008,NENHUM IDENTIFICADO,,05/06/2025,"Sérgio Tavares, CREA-MG 998877",ano_construcao: Ano não declarado explicitamente; documento menciona apenas idade aparente de 18 anos
+laudo_15.txt,Casa,"Imóvel residencial: casa, Rua Monte Verde, 19, Curitiba-PR",2003,590000.0,39.240,ÔNUS IDENTIFICADO,hipoteca,12/06/2025,"Patrícia Gomes, Eng. Civil, CREA-PR 123123",
+laudo_16.txt,Unidade comercial,"Unidade comercial 14, Rua do Sol, 250, Campinas/SP",2010,288000.0,101.010,NÃO INFORMADO / NÃO VERIFICÁVEL,,19/06/2025,"Guilherme Rocha, CREA-SP 501010",
+laudo_17.txt,Apartamento,"Objeto: apartamento residencial na Rua Harmonia, 44, Vila Madalena, São Paulo/SP",2015,610000.0,176.543,NENHUM IDENTIFICADO,,25/06/2025,"Marina Albuquerque, CREA-SP 5061234567","CONFLITO em 'área total': valores distintos encontrados ['92', '95']"

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Relatório Semanal do Funil de Crédito</title>
+<style>
+  :root { --fundo: #0A3D4C; --escuro: #072F3A; --claro: #fff; }
+  body { margin: 0; padding: 32px 20px; background: var(--fundo); color: var(--claro);
+         font-family: "Segoe UI", Arial, sans-serif; }
+  .pagina { max-width: 900px; margin: 0 auto; }
+  header, .destaque, .observacao { background: var(--escuro); border: 1px solid var(--claro);
+         padding: 16px 24px; margin-bottom: 16px; }
+  .logo { border: 2px solid var(--claro); padding: 4px 14px; letter-spacing: .3em; font-weight: 700; }
+  h1 { margin: 16px 0 4px; font-size: 26px; }
+  h2 { margin: 0 0 12px; font-size: 16px; }
+  .meta, .rotulo { margin: 0; font-size: 13px; opacity: .85; }
+  .destaques { display: flex; flex-wrap: wrap; gap: 12px; }
+  .destaque { flex: 1; min-width: 180px; }
+  .valor { margin: 4px 0 0; font-size: 24px; font-weight: 700; }
+  .secao { background: var(--claro); color: var(--fundo); padding: 20px 24px; margin-bottom: 16px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px 12px; border-bottom: 1px solid var(--fundo); text-align: left; }
+  th { background: var(--fundo); color: var(--claro); }
+  .num { text-align: right; }
+</style>
+</head>
+<body><div class="pagina">
+  <header>
+    <span class="logo">BARI</span>
+    <h1>Relatório Semanal do Funil de Crédito</h1>
+    <p class="meta">Gerado em 28/09/2026 04:30</p>
+  </header>
+
+  <div class="destaques">
+    
+    <div class="destaque"><p class="rotulo">Propostas com LTV &gt; 60%</p><p class="valor">904</p></div>
+    
+    <div class="destaque"><p class="rotulo">Conversão dentro da política</p><p class="valor">20.5%</p></div>
+    
+    <div class="destaque"><p class="rotulo">Conversão acima da política</p><p class="valor">12.1%</p></div>
+    
+  </div>
+
+  
+  <section class="secao">
+    <h2>Valor solicitado perdido por etapa do funil</h2>
+    <table>
+      <tr><th>Etapa</th><th class="num">Valor (R$)</th></tr>
+      <tr><td>1</td><td class="num">R$ 97.897.412,18</td></tr><tr><td>2</td><td class="num">R$ 346.830.412,17</td></tr><tr><td>3</td><td class="num">R$ 649.849.094,03</td></tr><tr><td>4</td><td class="num">R$ 453.758.198,81</td></tr><tr><td>5</td><td class="num">R$ 296.116.193,43</td></tr>
+    </table>
+  </section>
+  
+  <section class="secao">
+    <h2>Taxa de conversão por canal</h2>
+    <table>
+      <tr><th>Canal</th><th class="num">Conversão</th></tr>
+      <tr><td>Parceria</td><td class="num">22.8%</td></tr><tr><td>Indicação</td><td class="num">21.6%</td></tr><tr><td>Mídia paga</td><td class="num">21.4%</td></tr><tr><td>Organico</td><td class="num">20.0%</td></tr><tr><td>Correspondente</td><td class="num">13.7%</td></tr>
+    </table>
+  </section>
+  
+  <section class="secao">
+    <h2>Volume de propostas por canal</h2>
+    <table>
+      <tr><th>Canal</th><th class="num">Quantidade</th></tr>
+      <tr><td>Correspondente</td><td class="num">1.627</td></tr><tr><td>Organico</td><td class="num">1.273</td></tr><tr><td>Mídia paga</td><td class="num">1.166</td></tr><tr><td>Indicação</td><td class="num">910</td></tr><tr><td>Parceria</td><td class="num">889</td></tr>
+    </table>
+  </section>
+  
+  <section class="secao">
+    <h2>Conversão por mês (meses recentes excluídos)</h2>
+    <table>
+      <tr><th>Mês</th><th class="num">Conversão</th></tr>
+      <tr><td>2024-01</td><td class="num">20.0%</td></tr><tr><td>2024-02</td><td class="num">20.4%</td></tr><tr><td>2024-03</td><td class="num">15.7%</td></tr><tr><td>2024-04</td><td class="num">18.2%</td></tr><tr><td>2024-05</td><td class="num">23.1%</td></tr><tr><td>2024-06</td><td class="num">13.7%</td></tr><tr><td>2024-07</td><td class="num">22.0%</td></tr><tr><td>2024-08</td><td class="num">23.6%</td></tr><tr><td>2024-09</td><td class="num">18.7%</td></tr><tr><td>2024-10</td><td class="num">22.4%</td></tr><tr><td>2024-11</td><td class="num">20.1%</td></tr><tr><td>2024-12</td><td class="num">20.2%</td></tr><tr><td>2025-01</td><td class="num">20.5%</td></tr><tr><td>2025-02</td><td class="num">16.9%</td></tr><tr><td>2025-03</td><td class="num">17.6%</td></tr><tr><td>2025-04</td><td class="num">18.0%</td></tr><tr><td>2025-05</td><td class="num">21.8%</td></tr><tr><td>2025-06</td><td class="num">20.1%</td></tr><tr><td>2025-07</td><td class="num">17.0%</td></tr><tr><td>2025-08</td><td class="num">16.9%</td></tr><tr><td>2025-09</td><td class="num">17.7%</td></tr><tr><td>2025-10</td><td class="num">15.7%</td></tr>
+    </table>
+  </section>
+  
+  <section class="secao">
+    <h2>Distribuição de status final</h2>
+    <table>
+      <tr><th>Status</th><th class="num">Quantidade</th></tr>
+      <tr><td>Sem retorno</td><td class="num">1.495</td></tr><tr><td>Desistiu</td><td class="num">1.392</td></tr><tr><td>Contratada</td><td class="num">1.128</td></tr><tr><td>Reprovada crédito</td><td class="num">844</td></tr><tr><td>Problema garantia</td><td class="num">608</td></tr><tr><td>Documentação pendente</td><td class="num">398</td></tr>
+    </table>
+  </section>
+  
+
+  <section class="observacao"><h2>Observações</h2>Meses excluídos da série de conversão por estarem incompletos (censura de dados): 2025-11, 2025-12</section>
+</div></body>
+</html>
